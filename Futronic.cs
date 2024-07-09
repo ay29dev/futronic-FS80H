@@ -11,10 +11,13 @@ namespace WindowsFormsApp1
 
         public class Futronic
         {
+        /// <summary>
+        /// From the reference add new lib System.Drawing
+        /// https://github.com/controlid/integracao/blob/master/Ponto%20Eletr%C3%B4nico/test-C%23-LeitorUSB/Futronic.cs
+        /// </summary>
+        #region Futronic API
 
-            #region Futronic API
-
-            struct _FTRSCAN_FAKE_REPLICA_PARAMETERS
+        struct _FTRSCAN_FAKE_REPLICA_PARAMETERS
             {
                 bool bCalculated;
                 int nCalculatedSum1;
