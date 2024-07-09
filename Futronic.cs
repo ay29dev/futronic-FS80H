@@ -12,7 +12,9 @@ namespace WindowsFormsApp1
         public class Futronic
         {
         /// <summary>
+        /// Using .net framwork 4.6 https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net462-developer-pack-offline-installer
         /// From the reference add new lib System.Drawing
+        /// Add the ftrScanAPI in bin debug folder
         /// https://github.com/controlid/integracao/blob/master/Ponto%20Eletr%C3%B4nico/test-C%23-LeitorUSB/Futronic.cs
         /// </summary>
         #region Futronic API
